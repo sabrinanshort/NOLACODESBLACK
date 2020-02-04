@@ -1,0 +1,56 @@
+Welcome to day three of the NOLA Codes Black Challenge! Again we're working with shapes and animations. 
+
+HTML 
+You're going to animate a shape. 
+* In the HTML block you're going to start defining your shape. You will do that by typing <div class="circles"></div>
+
+<!-- this is the 1st in the NOLACodesBlack 29 days of code challenge--> 
+
+<div class="circles"></div>
+
+<!--The above code will set the framework for the project --> 
+
+Now in the CSS block you're going to build, color and animate the project (adventerous people here is where you can stand out by adding the reverse rotation).  
+
+You're going to do the steps below.:
+
+ .circles {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  background-color: black;
+          }
+<!-- One square should now appear on the screen. 
+
+Now you're going to learn to animate the square. Animation comes by adding Keyframes to your code in the CSS block. For more informatio on how to build the Keyframe function from scratch go here https://www.w3schools.com/css/css3_animations.asp 
+
+
+  animation-name: stretch;
+  animation-duration: 1.5s; 
+  animation-timing-function: ease-out; 
+  animation-delay: 0;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-fill-mode: none;
+  animation-play-state: running;
+}
+
+@keyframes stretch {
+  0% {
+    transform: scale(1);
+    background-color: red;
+    border-radius: 100%;
+  }
+  50% {
+    background-color: orange;
+  }
+  100% {
+    transform: scale(2.5) rotate(90deg);
+    background-color: green;;
+  }
+}
+For the adventerous of you you'll want to go to WS3 Schools to learn how to reverse the animation or change the color. 
+
+https://codepen.io/GlamorousGeek/pen/JjdPyMN
+
+Don't forget to tag @NolavateBlack when you share and use the hashtag #NOLACodesBlack to be featured on IG.
