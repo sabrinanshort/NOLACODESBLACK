@@ -3,12 +3,12 @@ __WELCOME TO NOLA CODES BLACK CHALLENGE__
 
 __OVERVIEW__
 
-29 days of short coding projects that will have you coding by the end of Black History Month. This challenge is to gain some coding experience. Goal is to spend everyday in February learning how to code. We'll give you the basics to get you inspired. Use as much Black, Green,Red and Purple in your designs as possible y'all! 
+29 days of short coding projects that will have you coding by the end of Black History Month. This challenge is to gain some coding experience. Goal is to spend everyday in February learning how to code. We'll give you the basics to get you inspired. Use as much Black, Green, Red and Purple in your designs as possible y'all! 
 
 __HOW TO GET STARTED__ 
 
 * You'll want to use CodePen(https://codepen.io/) to host your projects. 
-  * Codepen is a free online code editor that is perfect for beginnrs to use. While it is not an IDE or a text editor it's a great place to host snippets of code.  
+  * Codepen is a free online code editor that is perfect for beginners to use. While it is not an IDE or a text editor, it's a great place to host snippets of code.  
 * Come to Github daily for the new project https://github.com/eddiesmithjr/NOLACODESBLACK
   * Github is a repository, among other things. Here is where we will store the daily code challenges. To learn more about github check out the guide here https://guides.github.com/
 * You'll want join the Black Tech NOLA group on SLACK (blacktechnola.slack.com) and go to the #NOLACODESBLACK channel daily as well. You will be able to get help on the daily challenges there.    
