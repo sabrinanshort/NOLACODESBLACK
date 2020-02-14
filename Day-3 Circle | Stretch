@@ -33,6 +33,19 @@ Now you want to define the circle
   background-color: black;
 <!--The above code will build the circle --> 
 
+^^ Builds a square:
+
+
+.circle {
+  height: 100px;
+  width: 100px;
+  margin: 0 auto;
+  border-radius: 75%;
+  background-color: black;
+}
+
+^^Builds a circle...but only shape is growing circle when border-radius is added, should maybe clarify what the initial shape *should* be
+
 Now you're going to learn to animate the circle. Animation comes by adding Keyframes to your code in the CSS block. For more informatio on how to build the Keyframe function from scratch go here https://www.w3schools.com/css/css3_animations.asp 
 
 
