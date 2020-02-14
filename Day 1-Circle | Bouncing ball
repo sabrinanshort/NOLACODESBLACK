@@ -1,6 +1,11 @@
-Lets start the challenge off simple, we're going to use codepen to build our projects as it is a code editor and it has separate windows for HTML5/CSS3/Javascript this will be helpful while you learn.
+Lets start the challenge off simple, 
+we're going to use codepen to build our projects as it is a code editor
+ and it has separate windows for HTML5/CSS3/Javascript this will be helpful
+  while you learn.
 
-For those of you who have never attempted to code you're going to make 3 circles. The basic challenge is to change the color of the circles to red, black and green. If you need help reach out to the coach in the slack channel during coaching hours. For those of you who are feeling a bit adventurous you're going to turn the 3rd circle into an animated ball.
+For those of you who have never attempted to code you're going to make
+ 3 circles. The basic challenge is to change the color of the circles to 
+ red, black and green. If you need help reach out to the coach in the slack channel during coaching hours. For those of you who are feeling a bit adventurous you're going to turn the 3rd circle into an animated ball.
 
 HTML 
 You're going to build 2 circles and 1 ball. 
@@ -37,6 +42,11 @@ For the adventerous in your 3rd block you want to define the circle as a ball li
   background-color: red;
   border-radius: 50%;
   display: inline-block;
+  <!--Animation block: 
+  animation: bounce 0.5s;
+  animation-direction: alternate;
+  animation-timing-function: cubic-bezier(.5,0.05,1,.5);
+  animation-iteration-count: infinite; --!>
 }
 
 Now you're going to learn to animate the ball. Animation comes by adding Keyframes to your code in the CSS block. For more informatio on how to build the Keyframe function from scratch go here https://www.w3schools.com/css/css3_animations.asp 
