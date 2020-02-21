@@ -16,7 +16,7 @@ You're going to build 2 curves and 1 5-pointed star.
 Now in the CSS block you're going to build, color and animate the project (adventerous people here is where you can stand out by adding the reverse rotation to the last curve).  
 
 You're going to do the steps below.:
- .curve{
+ .curves {
       width: 160px;
       height: 160px;
       border-radius: 75%;
@@ -25,7 +25,7 @@ You're going to do the steps below.:
 <!-- One curve should now appear on the screen. Now you'll want to build two additional blocks of code just like this one.-->
 
 
-star-five {
+.star-five {
       margin: 50px 0;
       position: relative;
       display: block;
@@ -66,7 +66,7 @@ star-five {
     }
 Now you're going to learn to animate the curve. Animation comes by adding Keyframes to your code in the CSS block. For more informatio on how to build the Keyframe function from scratch go here https://www.w3schools.com/css/css3_animations.asp 
 
-.curve{
+.curves {
   animation: rotation 8s infinite linear;
 }
 

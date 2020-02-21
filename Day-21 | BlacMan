@@ -1,0 +1,73 @@
+Today we're going to harness some additional features of HTML as well as work some more with CSS
+
+Let's start by adding some additional structure to the HTML editing portion of the codepen
+
+First, define a `header` and a `body` by adding the following:
+
+    <head></head>
+    <body></body>
+
+In HTML, we can import code into headers to be referenced on the page, today let's import a web-safe font from Google,
+you can learn more about importing fonts here: https://www.w3schools.com/howto/howto_google_fonts.asp & check out all 
+of Google's courtesy fonts here: https://fonts.google.com/
+
+Add the following to your header to import our font:
+
+<link href='https://fonts.googleapis.com/css?family=Codystar' rel='stylesheet'>
+
+Now, within the `<body></body>` tags, setup the body of the page and reference the imported font in the CSS editor:
+
+body {
+  background: #222;
+  font-family: 'Codystar';
+  font-size: 44px;
+  place-items: center;
+}
+
+Setup the module div's text configurations:
+
+.module {
+  background: #222;
+  color: white;
+  padding: 1rem;
+}
+
+Add the "Power Pellets" to the maze by adding the following to the module div:
+
+∙ ∙ ∙ ∙ ∙ #NOLACODESBLACK ∙ ∙ ∙ ∙ ∙
+
+You should now have a black background with white, dotted text appearing in the interpreter.
+
+
+After setting up the  create the gradient "maze walls", add the following to the CSS editor:
+
+.module-border-wrap {
+  max-height: 800px;
+  max-width: 800px;
+  background: linear-gradient(to right, red, green);
+  padding: 3px;
+}
+
+Finally, to create "Blacman", Layer the `blacman` div within the module div and add the following to CSS:
+
+.blacman {
+    width: 0;
+    height: 0;
+    display: inline-block;
+    border-right: 17.5px solid transparent;
+    border-top: 17.5px solid #ffde00;
+    border-left: 17.5px solid #ffde00;
+    border-bottom: 17.5px solid #ffde00;
+    border-top-left-radius: 17.5px;
+    border-top-right-radius: 17.5px;
+    border-bottom-left-radius: 17.5px;
+    border-bottom-right-radius: 17.5px;
+}
+
+Congratulations! You're done! The final result should look like this: https://codepen.io/jillianntish/pen/OJVRmYm
+
+Now if you followed the steps correctly you have a static pacman going after some power pellets,
+
+Stay tuned for part two where we animate blacman!
+
+Don't forget to tag @NolavateBlack when you share and use the hashtag #NOLACodesBlack to be featured on IG.
